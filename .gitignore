@@ -1,0 +1,107 @@
+## Mlx related
+Makefile.gen
+/test/mlx-test
+
+## Editor
+.vscode/*
+*~
+\#*\#
+
+## Other
+.DS_STORE
+
+## Template from https://github.com/github/gitignore
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+minilibx-linux/*.o
+minilibx-linux/*.ko
+minilibx-linux/*.obj
+minilibx-linux/*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+minilibx-linux/*.ilk
+minilibx-linux/*.map
+minilibx-linux/*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+minilibx-linux/*.gch
+minilibx-linux/*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+minilibx-linux/*.lib
+minilibx-linux/*.a
+minilibx-linux/*.la
+minilibx-linux/*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+minilibx-linux/*.dll
+minilibx-linux/*.so
+minilibx-linux/*.so.*
+minilibx-linux/*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+minilibx-linux/*.exe
+minilibx-linux/*.out
+minilibx-linux/*.app
+minilibx-linux/*.i*86
+minilibx-linux/*.x86_64
+minilibx-linux/*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+minilibx-linux/*.dSYM/
+minilibx-linux/*.su
+minilibx-linux/*.idb
+minilibx-linux/*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+minilibx-linux/*.mod*
+minilibx-linux/*.cmd
+minilibx-linux/.tmp_versions/
+minilibx-linux/modules.order
+minilibx-linux/Module.symvers
+minilibx-linux/Mkfile.old
+minilibx-linux/dkms.conf

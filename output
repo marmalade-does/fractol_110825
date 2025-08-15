@@ -1,0 +1,66 @@
+.
+├── Makefile
+├── _inactive
+│   └── fractol.pdf
+├── apuntes.md
+├── bin 
+│   ├── output
+│   └── testing_debug
+├── includes
+│   ├── fractol.h
+│   └── libft
+│       ├── Makefile
+│       ├── ft_atoi.c
+│       ├── get_next_line_bonus.c
+│       ├── get_next_line_utils_bonus.c
+│       ├── libft.h
+│       ├── main_test.o
+│       ├── print_hexptry.c
+│       ├── print_hexptry.o
+│       ├── print_types.c
+│       └── scarp.txt
+├── minilibx-linux
+│   ├── LICENSE
+│   ├── Makefile
+│   ├── Makefile.mk
+│   ├── README.md
+│   ├── configure
+│   ├── man
+│   │   ├── man1
+│   │   │   ├── mlx.1
+│   │   │   ├── mlx_loop.1
+│   │   │   ├── mlx_new_image.1
+│   │   │   ├── mlx_new_window.1
+│   │   │   └── mlx_pixel_put.1
+│   │   └── man3
+│   │       ├── mlx.3
+│   │       ├── mlx_loop.3
+│   │       ├── mlx_new_image.3
+│   │       ├── mlx_new_window.3
+│   │       └── mlx_pixel_put.3
+│   ├── mlx.h
+│   ├── mlx_clear_window.c
+│   ├── mlx_destroy_display.c
+│   ├── mlx_string_put.c
+│   ├── mlx_xpm.c
+│   ├── mlx_xpm.c.ok
+│   ├── rgb2c.pl
+│   └── test
+│       ├── Makefile.mk
+│       ├── main.c
+│       ├── new_win.c
+│       ├── open.xpm
+│       ├── open24.xpm
+│       ├── open30.xpm
+│       └── run_tests.sh
+├── obj
+│   └── main.o
+├── output
+├── src
+│   ├── events.c
+│   ├── init.c
+│   ├── main.c
+│   ├── math_utils.c
+│   ├── render.c
+│   └── string_utils.c
+└── todo.md
